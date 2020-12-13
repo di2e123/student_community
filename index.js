@@ -72,7 +72,7 @@ app.get('/', function(req, res){
       list = list +`
       <li>
       <a href="${business[i]}">
-        <img src="/img/${business[i]}_detail.jpg"/>
+        <img src="/img/${business[i]}.jpg"/>
         <div class="box_title">
           ${kr_title}
         </div>
